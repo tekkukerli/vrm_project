@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cfa92682-000e-4396-a791-f8fa26c68203" name="Default Changelist" comment="Katsetatud conrolleri ja template loomine ja laiendamine">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vrm_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/sensio_framework_extra.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/LuckyController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/lucky/number.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1hdtTAk5I4HhJf6g8fwuB7VxEB7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfa92682-000e-4396-a791-f8fa26c68203" name="Default Changelist" comment="" />
+      <created>1600352801998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600352801998</updated>
+      <workItem from="1600352803178" duration="3749000" />
+      <workItem from="1600453176306" duration="532000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Katsetatud conrolleri ja template loomine ja laiendamine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Katsetatud conrolleri ja template loomine ja laiendamine" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="19" key="#Deployment" timestamp="1600353172814">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="19" key="#Deployment/0.0.1280.720@0.0.1280.720" timestamp="1600353172814" />
+    <state x="217" y="6" key="#SSH_Configurations" timestamp="1600353066188">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="217" y="6" key="#SSH_Configurations/0.0.1280.720@0.0.1280.720" timestamp="1600353066188" />
+    <state x="676" y="16" width="749" height="1010" key="CommitChangelistDialog2" timestamp="1600453626784">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="676" y="16" width="749" height="1010" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1600453626784" />
+    <state x="428" y="83" key="NewPhpClassDialog" timestamp="1600353301727">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="428" y="83" key="NewPhpClassDialog/0.0.1280.720@0.0.1280.720" timestamp="1600353301727" />
+    <state x="429" y="91" key="ftp.server.browser" timestamp="1600353117679">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="429" y="91" key="ftp.server.browser/0.0.1280.720@0.0.1280.720" timestamp="1600353117679" />
+  </component>
+</project>
