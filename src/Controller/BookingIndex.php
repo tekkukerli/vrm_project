@@ -20,17 +20,17 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 
 use Doctrine\ORM\EntityManagerInterface;
-use App\Entity\Bookings;
-
+use App\Entity\Booking;
 
 
 class BookingIndex extends AbstractController
 {
     /**
-     * @Route("/", name="create_booking")
+     * @Route("/create_booking", name="create_booking")
      */
     public function create_booking(Request $request)
     {
+        $this->generateUrl('create_booking');
         $form = $this->createFormBuilder()
             ->add('firstName', TextType::class, [
                 'required' => true
@@ -70,11 +70,10 @@ class BookingIndex extends AbstractController
                 ],
                 'required' => true
             ])
-            ->add('additionaInformation', TextareaType::class, [
+            ->add('additionalInformation', TextareaType::class, [
                 'required' => false,
-                'empty_data' => 'no additiona information'
+                'empty_data' => 'no additional information'
             ])
-
             ->add('submit', SubmitType::class, ['label' => 'Create Bookings'])
             ->getForm();
 
@@ -85,43 +84,42 @@ class BookingIndex extends AbstractController
 
                 $entityManager = $this->getDoctrine()->getManager();
 
-                $bookings = new Bookings();
+                $booking = new Booking();
 
-                $bookings->setFirstName($data['firstName']);
-                $bookings->setLastName($data['lastName']);
-                $bookings->setPhone($data['phone']);
-                $bookings->setEmail($data['email']);
-                $bookings->setBirthdate(new \DateTime($data['birthday']->format('Y-m-d')));
-                $bookings->setStartDate(new \DateTime($data['startDate']->format('Y-m-d')));
-                $bookings->setEndDate(new \DateTime($data['endDate']->format('Y-m-d')));
-                $bookings->setArrivalTime(new \DateTime($data['arrivalTime']->format('H:i:s')));
-                $bookings->setNumberOfPeople($data['nrOfPeople']);
-                $bookings->setPayingMethod($data['payingMethod']);
-                $bookings->setAdditionaInformation($data['additionaInformation']);
+                $booking->setFirstName($data['firstName']);
+                $booking->setLastName($data['lastName']);
+                $booking->setPhone($data['phone']);
+                $booking->setEmail($data['email']);
+                $booking->setBirthday(new \DateTime($data['birthday']->format('Y-m-d')));
+                $booking->setStartDate(new \DateTime($data['startDate']->format('Y-m-d')));
+                $booking->setEndDate(new \DateTime($data['endDate']->format('Y-m-d')));
+                $booking->setArrivalTime(new \DateTime($data['arrivalTime']->format('H:i:s')));
+                $booking->setnrOfPeople($data['nrOfPeople']);
+                $booking->setPayingMethod($data['payingMethod']);
+                $booking->setAdditionalInformation($data['additionalInformation']);
 
-                $entityManager->persist($bookings);
+                $entityManager->persist($booking);
 
                 $entityManager->flush();
 
-                return $this->redirectToRoute('create_booking');
-
-
+                return $this->redirectToRoute('bookings');
             }
         }
+
 
         return $this->render('bookings/create_booking.html.twig', [
             'form' => $form->createView(),
         ]);
-
-
     }
+
+
     /**
      * @Route("/bookings", name="bookings")
      */
     public function bookings()
     {
         $this->generateUrl('bookings');
-        $repository = $this->getDoctrine()->getRepository(Bookings::class);
+        $repository = $this->getDoctrine()->getRepository(Booking::class);
         $bookings = $repository->findAll();
         return $this->render('bookings/list.html.twig', ['bookings' => $bookings]);
     }
