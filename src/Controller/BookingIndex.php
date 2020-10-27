@@ -26,7 +26,7 @@ use App\Entity\Booking;
 class BookingIndex extends AbstractController
 {
     /**
-     * @Route("/create_booking", name="create_booking")
+     * @Route("/", name="create_booking")
      */
     public function create_booking(Request $request)
     {
